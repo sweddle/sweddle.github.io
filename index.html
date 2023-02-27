@@ -209,13 +209,7 @@
           <aboutme_ct>about me content</aboutme_ct>
         </p>
         <p>
-          <ul>
-            <li><b>Languages:</b> Python, Java, JavaScript, C, C++, HTML/CSS, Bash</li>
-            <li><b>Databases:</b> MySQL, PostgreSQL, MongoDB</li>
-            <li><b>Libraries:</b> NumPy, Pandas, OpenCV</li>
-            <li><b>Frameworks:</b> Flask, Django, Node.js, Keras, TensorFlow, PyTorch, Bootstrap, Apache Beam</li>
-            <li><b>Tools & Technologies:</b> Git, Docker, AWS, GCP, Heroku, JIRA</li>
-          </ul>
+          <aboutme_items_ct>about me content</aboutme_items_ct>
           
         </p>
           
@@ -940,6 +934,15 @@ of each drug container to estimate the degradation of the drug.
   .then(data => {
     document.querySelector("aboutme_ct").innerHTML = data;
   });
+
+  fetch("aboutme_items_ct.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("aboutme_items_ct").innerHTML = data;
+  });
+  
 
 
   </script>
