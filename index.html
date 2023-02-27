@@ -209,28 +209,12 @@
           <aboutme_ct>about me content</aboutme_ct>
         </p>
         <p>
-          <aboutme_items_ct>about me content</aboutme_items_ct>
-          
+          <aboutme_items_ct>about me items content</aboutme_items_ct>  
         </p>
-          
-        <!-- <p>
-          
-          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
-        </p> -->
         <p>
-          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
+          <aboutme_footer_ct>about me footer content</aboutme_footer_ct>
         </p>
-        <!-- <p>
-          Another Paragraph
-        </p>  -->
-        <!-- <p>
-        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
+
       </div>
     </section>
 
@@ -942,7 +926,14 @@ of each drug container to estimate the degradation of the drug.
   .then(data => {
     document.querySelector("aboutme_items_ct").innerHTML = data;
   });
-  
+  fetch("aboutme_footer_ct.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("aboutme_footer_ct").innerHTML = data;
+  });
+   
 
 
   </script>
