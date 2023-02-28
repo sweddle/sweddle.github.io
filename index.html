@@ -800,27 +800,7 @@ of each drug container to estimate the degradation of the drug.
           <div class="col s12 m6 l6">
             <div class="card">
               <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.asu.edu/" target="_blank" class="teal-text hoverline">Arizona State University</a></span>
-                </p>
-                <p class="brown-text">Tempe, USA</p>
-                <p>
-                  <b>Degree: </b>Master of Science in Computer Science      
-                  <br>
-                  <b>CGPA: </b>4.0/4.0
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Distributed Database Systems</li>
-                    <li>Cloud Computing</li>
-                    <li>Foundations of Algorithms</li>                    
-                  </ul>
-                  </p>
-
-                </ul>
+                <edu_1_ct>EDU 1 Content</edu_1_ct>
               </div>
             </div>
 
@@ -895,6 +875,7 @@ of each drug container to estimate the degradation of the drug.
 
   <!-- typed.js -->
   <script src="js/typed.min.js"></script>
+
   <script type="text/javascript">
     var typed = new Typed('.typing',{
       strings: ["Pythonist", "Developer", "Fast Learner"],
@@ -926,6 +907,7 @@ of each drug container to estimate the degradation of the drug.
   .then(data => {
     document.querySelector("aboutme_items_ct").innerHTML = data;
   });
+
   fetch("aboutme_footer_ct.html")
   .then(response => {
     return response.text()
@@ -934,7 +916,13 @@ of each drug container to estimate the degradation of the drug.
     document.querySelector("aboutme_footer_ct").innerHTML = data;
   });
    
-
+  fetch("edu_1.html")
+  .then(response => {
+    return response.text()
+  })
+  .then(data => {
+    document.querySelector("edu_1_ct").innerHTML = data;
+  });
 
   </script>
 
