@@ -1,0 +1,80 @@
+### BASIC DETAILS - start list ###
+#name# Shane Weddle
+#A# Developer, DevOps Pro, IoT Geek
+#short_text#  Passionate programmer and DevOps enthusiast thats a self-driven, quick starter, with a curious mind who enjoys solving a complex and challenging real-world problems.
+#email# sweddle@gmail.com
+#phone# 408-688-6638
+#linkedIn# sweddle@linkedin
+#github# sweddle@github.com
+#twitter# sweddle@twitter.com
+#weburl# www.shaneweddle.com
+#resume# https://sweddle.github.io/resume/xShane_Weddle_Resume.pdf
+#end list#
+
+### SECTION DETAILS ###
+
+## ORDER AND DISPLAY OF MENU ITEMS ##
+#about# yes
+#experience# yes
+#projects# yes
+#skills# yes
+#education# yes
+#contact# yes
+#resume# yes
+#END#
+
+## ORDER AND DISPLAY OF MENU Experience ITEMS ## 
+privinvest.html
+taoshtml
+biotrust.html
+proact.html
+madcatz.html
+
+## ORDER AND DISPLAY OF MENU Projects ITEMS ## 
+gamepadjs.html
+fastchat.html
+aimydocs.html
+weatherbot.html
+yahoofin.html
+legobot.html
+#END#
+
+## ORDER AND DISPLAY OF MENU Skills ITEMS ## 
+Python, python-logo
+HTML5, html5
+CSS3, css3
+MySQL, mysql-logo
+PostgreSQL, psql-logo
+Node.JS, nodejs
+#END#
+
+## ORDER AND DISPLAY OF MENU Libraries ITEMS ## 
+NumPy, numpylg
+Pandas, pandas
+OpenCV, ocv_logo
+scikit-learn, scikitlearn
+matplotlib, matplotlib
+#END#
+
+## ORDER AND DISPLAY OF MENU Libraries ITEMS ## 
+NumPy, numpylg
+Pandas, pandas
+OpenCV, ocv_logo
+scikit-learn, scikitlearn
+matplotlib, matplotlib
+#END#
+
+## ORDER AND DISPLAY OF MENU Education ITEMS ## 
+certs.html
+frcc.html
+ccc.html
+#END#
+
+## ORDER AND DISPLAY OF MENU Contact ITEMS ## 
+phone, yes
+email, yes
+weburl, no
+github, yes
+linkedin, yes
+twitter, no
+#END#
