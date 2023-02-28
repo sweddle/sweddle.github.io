@@ -884,12 +884,12 @@ of each drug container to estimate the degradation of the drug.
       backSpeed: 40
     });
 
-    fetch("statement.html")
+    fetch("content/statement.html")
   .then(response => {
     return response.text()
   })
   .then(data => {
-    document.querySelector("statement_ct").innerHTML = data;
+    document.querySelector("content/statement").innerHTML = data;
   });
 
     fetch("aboutme.html")
@@ -900,7 +900,7 @@ of each drug container to estimate the degradation of the drug.
     document.querySelector("aboutme_ct").innerHTML = data;
   });
 
-  fetch("aboutme_items_ct.html")
+  fetch("content/aboutme_items.html")
   .then(response => {
     return response.text()
   })
@@ -908,7 +908,7 @@ of each drug container to estimate the degradation of the drug.
     document.querySelector("aboutme_items_ct").innerHTML = data;
   });
 
-  fetch("aboutme_footer.html")
+  fetch("content/aboutme_footer.html")
   .then(response => {
     return response.text()
   })
@@ -916,7 +916,7 @@ of each drug container to estimate the degradation of the drug.
     document.querySelector("aboutme_footer_ct").innerHTML = data;
   });
    
-  fetch("https://docs.google.com/document/d/1EbseLtg1SGmY70HoPwKH6lN5kdx9A9qtCPC6Ndod6Sw/edit?usp=sharing")
+  fetch("content/edu_1.html")
   .then(response => {
     return response.text()
   })
