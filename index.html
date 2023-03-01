@@ -889,7 +889,7 @@ of each drug container to estimate the degradation of the drug.
     return response.text()
   })
   .then(data => {
-    document.querySelector("content/statement").innerHTML = data;
+    document.querySelector("statement_ct").innerHTML = data;
   });
 
     fetch("content/aboutme.html")
